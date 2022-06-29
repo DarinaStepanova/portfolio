@@ -9,49 +9,250 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?168" charset="windows-1251"></script>
+
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header__row">
-                <div class="header__logo">
-                    <img src="img/logo.svg" alt="">
+        <header>
+            <div class="container">
+                <div class="header__row">
+                    <div class="header__logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <ul class="header__list">
+                        <li>
+                            <a href="#home">
+                                ГЛАВНАЯ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about">
+                                ОБО&#xA0МНЕ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#portfolio">
+                                ПРОЕКТЫ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services">
+                                УСЛУГИ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#footer">
+                                КОНТАКТЫ
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="header__hire" href="#contactme">
+                        Заказать
+                    </a>
                 </div>
-                <ul class="header__list">
-                    <li>
-                        <a href="">
-                            ГЛАВНАЯ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            ОБО&#xA0МНЕ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            ПРОЕКТЫ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            УСЛУГИ
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            КОНТАКТЫ
-                        </a>
-                    </li>
-                </ul>
-                <a class="header__hire" href="">
-                            Заказать
+            </div>
+        </header>
+        <main>
+            <div class="bodyhome" id="home">
+                <div class="home"> 
+                    <div class="homemain">
+                        <h1 class="yellow">Привет, я</h1>
+                        <h2 class="bigblack">Дарина Степанова</h2>
+                        <h3 class="green">designer&coder</h3>
+                        <h4 class="gray">Я дизайнер, специализирующийся на разработке пользовательского интерфейса, и front-end разработчик, который пишет чистый, элегантный и эффективный код. Я делаю сайты, которые превращают посетителей в клиентов.</h4>
+                    </div>
+                    <img class="photohome" src="/img/cat_and_laptop.png">
+                </div>
+            
+                <a class="hireme" href="#contactme">
+                    Нужен стильный сайт? Я помогу!
                 </a>
+            
+            </div>
+            <div class="about" id="about">
+                    <div class="aboutmain">
+                        <img src="/img/мышь.png" class="mouse"/>
+                        <div class="abouttext">
+                            <h1 class="yellow1">НЕМНОГО</h1>
+                            <h2 class="bigblack1">Обо мне</h2>
+                            <div class="gray1">
+                                <p>Всем привет! </p> 
+                                <p>Я Дарина, студентка второго курса МТУСИ. Учусь на направлении "Информатика и вычислительная техника" и параллельно занимаюсь фрилансом.</p>
+                                <p>Cвои знания и опыт, полученные при обучении в университете, я использую для создания различного рода сайтов. Темы охватывают широкий спектр вопросов - от нейросетевой детекции до сайта-переводчика.</p>
+                                <p>Когда не нахожусь за монитором своего ноутбука, люблю рисовать и писать небольшие обзоры на разные художественные и мультипликационные фильмы и сериалы, комиксы, новеллы и романы. Это не только радует меня как человека творческого, но  и способствует развитию моих навыков в дизайне и копирайтинге.</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <ul class="aboutme"> 
+                        <li>
+                            <img src="/img/Group.svg"/>
+                            <div>
+                                <h4  class="yellow2">Опыт</h4>
+                                <p>2 года</p>    
+                            </div> 
+                        </li>
+                        <li>
+                            <img src="/img/Group 1.svg"/>
+                            <div>
+                                <h4  class="yellow2">Оплата</h4>
+                                <p>пирожными</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="/img/person-workspace.svg"/>  
+                            <div>
+                                <h4 class="yellow2">Поддержка клиентов</h4>
+                                <p>24/7</p> 
+                            </div>
+                        </li>                         
+                    </ul>
+            </div>
+            <div class="bodyportfolio" id="portfolio">
+                <div class="pinkblock"></div>
+                <img class="yellowblockgrid" src="/img/yellowblockgrid.svg"/>
+                <div class="portfolio">
+                    <div class="portfoliohead">
+                        <h1 class="yellow1">ПОРТФОЛИО</h1>
+                        <h2 class="bigblack1">Мои недавние проекты</h2>
+                    </div>
+                    <div class="block">
+                        <img src="/img/Рисунок1.png"/> 
+                        <img src="/img/Рисунок2.png"/> 
+                    </div>
+                    <div class="block">
+                        <img src="/img/Рисунок3.png"/>    
+                        <img src="/img/Рисунок4.png"/>                   
+                    </div>
+                    <div class="whiteblock">
+                        <img class="about1" src="/img/verh.svg"/>
+                        <p class="gray1">Детекция, переводчик, telegram-bot</p>
+                        <div class="whiteblockh">
+                            <h1 class="miniblack">Some projects</h1>
+                            <h1 class="gray1">BY ME</h1>
+                        </div>
+                        <img class="about2" src="/img/niz.svg"/>
+                    </div>
+                </div>
+            </div>
+            <div class="services" id="services">
+                    <div class="portfoliohead">
+                        <h1 class="yellow1">УСЛУГИ</h1>
+                        <h2 class="bigblack1">Посмотри, что я могу</h2>
+                    </div>
+                    <div>
+                        <ul class="portfoliomain"> 
+                            <li>
+                                <div class="ican">
+                                    <h4  class="yellow3"><i class="bi bi-stars"></i>designer</h4>
+                                    <p>UI design</p>
+                                    <p>UX design</p>
+                                    <p>Illustrations</p>
+                                    <p>Eating pizza</p>    
+                                </div> 
+                            </li>
+                            <img class="lapa" src="/img/lapa.png"/>
+                            <li>
+                                <div class="ican">
+                                    <h4  class="yellow3">&#x3C;coder&#x3E;</h4>
+                                    <p>Front-end development</p>
+                                    <p>Some back-end</p>
+                                    <p>HTML / CSS / Python</p> 
+                                    <p>Some JavaScript</p>
+                                </div>
+                            </li>                       
+                        </ul>
+
+                    </div>
+            </div>
+            <div class="contactmebody" id="contactme">
+                <div class="contactme">
+                    <div class="contactinfo">
+                        <h1 class="bigblack2">Свяжитесь со мной</h1>
+                        <h2 class="gray">Если у вас появились какие-либо вопросы или предложения, свяжитесь со мной удобным для вас способом.
+                            Я всегда на связи для того, чтобы помочь каждому клиенту и воплотить все ваши желания в реальность	
+                            &#128062;
+                        </h2>
+                        <address>
+                            <p>
+                                <img src="/img/vectormail.svg"/>
+                                <a href="mailto:stepanovadari@mail.ru">stepanovadari@mail.ru</a>
+                            </p>
+                            <p>
+                                <img src="/img/vectortelephone.svg"/>
+                                <a href="tel:+79228167431">+7 922 816 74 31</a>
+                            </p> 
+                        </address>
+                    </div>
+                </div>
+                <div class="contact">
+                    <input class="contactblockname" required placeholder=" Ваше имя" name="name">
+                    <input class="contactblockname" type="email" required placeholder=" E-mail" name="e-mail">
+                    <textarea class="contactblockmes" required placeholder=" Сообщение" name="mes"></textarea>
+                    <button type="submit" class="hireme">Отправить</button>    
+            </div>
+        </main>
+    
+    <footer id="footer">
+        <img position="relative" width="405px" height="420px" src="/img/cap.png"/>                        
+        <div class="footer">
+            <div class="byme">
+                <img src="/img/_DS_2.svg" alt="">
+                <p>I will write the coolest website for you. This site was also made by me ^-^</p>
+            </div>
+            <div class="address">
+                <p>CONTACTS</p>
+                <div class="me">
+                    <p>+7 (495) 957-77-36</p>
+                    <p>+7 (922) 816-74-31</p>
+                    <p>stepanovadari@mail.ru</p>
+                    <!-- <p>МТУСИ на Авиамоторной</p>
+                    <p><strong>111024, г. Москва, улица Авиамоторная, дом 8а</strong></p>
+                    <p>Телефон</p>
+                    <p><strong>+7 (922) 816-74-31 </strong></p>
+                    <p><strong>+7 (495) 957-77-36</strong></p>
+                    <p>E-mail</p>
+                    <p><strong>stepanovadari@mail.ru</strong></p> -->
+                </div>
+            </div>
+            <div class="address">
+                <p>SOCIALS</p>
+                <div class="socials">
+                    <div class="social github">
+                        <a href="https://github.com/DarinaStepanova" target="_blank">
+                            <svg role="img" viewBox="0 0 496 512">
+                                <path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="social telegram">
+                        <a href="https://t.me/darinastepanova" target="_blank">
+                            <svg role="img" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="social vk">
+                        <a href="https://vk.com/darishka_stepanova" target="_blank">
+                            <svg role="img" viewBox="0 0 576 512">
+                                <path fill="currentColor" d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="social instagram">
+                        <a href="https://instagram.com/darina_stepanova" target="_blank">
+                            <svg role="img" viewBox="0 0 448 512">
+                                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div> 
             </div>
         </div>
-    </header>
-    <main></main>
-    <footer class="footer"></footer>
+
+        <div class="footerfooter"></div>
+        
+    </footer>
     
 </body>
 </html>
