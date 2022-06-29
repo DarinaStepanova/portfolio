@@ -294,20 +294,20 @@ body {
     font-size: 25px;
     gap: 18.92;
 }
-address {
+.addressme {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 57.2px 0;
 }
-address p {
+.addressme p {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
-address a {
+.addressme a {
     display: flex;
     align-self: center;
     padding: 0px;
