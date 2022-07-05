@@ -395,6 +395,7 @@ footer {
     flex-direction: row;
     gap: 5px;
     height: 20px;
+    padding-right: 30px;
 }
 .social a {
 	display: flex;
@@ -494,7 +495,8 @@ footer {
     color: rgba(0, 0, 0, 0.31);
 }
 .byme {
-    width: 285.27px;
+    width: 280px;
+    position: relative;
 }
 
 .byme p{
