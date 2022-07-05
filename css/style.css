@@ -6,29 +6,30 @@
 }
 body {     
     font-family: 'Poppins', sans-serif;
-    height: max-content;
     background: linear-gradient(180deg, rgba(236, 178, 46, 0.33) -4.71%, rgba(255, 255, 255, 0.33) 4.86%);
 }
-.overlay{
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+/* .overlay{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99999;
-    background-color: rgba(236, 178, 46, 0.33);} 
-
+    background-color: rgba(236, 178, 46, 0.33);}  */
 .container {
-    max-width: 1402px;
     margin: 0 auto;
-    }
-
+}
 .header__row {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
     padding: 14.6042px 97.3611px;
-    gap: 150px;  
+    gap: 150px;
 }
 .header__list {
     display: flex;
@@ -65,7 +66,6 @@ body {
     text-decoration: none;
     transition: 0.5s all;
 }
-
 .header__list a:hover {
     color: #000;
 }
@@ -76,17 +76,16 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 600px;
     gap: 100px;
-    padding: 94px 94px 30px 94px;
+    padding: 134px 94px 40px 94px;
 }
 .home {
     position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 20px;
-    height: 300px;
     padding: 0px;
 }
 .homemain {
@@ -116,10 +115,7 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 .photohome {
-    position: relative;
     width: 340px;
-    image-rendering: pixelated;
-
 }
 .hireme {
     position: relative;
@@ -139,15 +135,13 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     margin: 0 auto;
-    appearance: none;
-    border: 0;
 }
 .about {
     display: flex;
     flex-direction: column;
     position: relative;
     padding: 94px;
-    padding-top: 70px;
+    padding-top: 84px;
     padding-bottom: 90px;
     gap: 30px;
 }
@@ -158,6 +152,7 @@ body {
     gap: 50px;
 }
 .mouse {
+    position: relative;
     width: 530.25px;
     height: 353.5px;
 }
@@ -188,7 +183,8 @@ body {
     font-size: 19.4722px;
     color: #FCC028;    
 }
-.bigblack1 {position: relative;
+.bigblack1 {
+    position: relative;
     font-weight: 400;
     font-size: 38.9444px;
     color: rgba(0, 0, 0, 0.81);
@@ -254,7 +250,8 @@ body {
     justify-content: center;
     gap: 30px;
 }
-.block{ position: relative;
+.block{ 
+    position: relative;
     padding: 0px 97px;
     display: flex;
     flex-direction: row;
@@ -272,7 +269,6 @@ body {
     width: 376px;
     height: 581.3333px;
 }
-
 .yellow3 {
     font-size: 30px;
     font-weight: 500;
@@ -361,10 +357,30 @@ button:active {
     box-shadow: 1px 1px 2px rgba(0,0,0,0.4) inset;
     border-color: gray;
 }
+.footerfooter{
+    position: absolute;
+    background: #FCC028;
+    width: 100%;
+    height: 5%;
+    bottom: 0;
+}
+.captain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.captain img {
+    width: 405px;
+    height: 420px;
+}
 footer {
+    position: relative;
     display: flex
+
 }
 .footer {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -417,6 +433,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .about1 {
     position: absolute;
@@ -446,10 +463,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    justify-content: center;
 }
 .address {
     display: flex;

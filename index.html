@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="header__row">
                     <div class="header__logo">
-                        <img src="img/logo.svg" alt="">
+                        <img src="./img/logo.svg" alt="">
                     </div>
                     <ul class="header__list">
                         <li>
@@ -62,7 +62,7 @@
                         <h3 class="green">designer&coder</h3>
                         <h4 class="gray">Я дизайнер, специализирующийся на разработке пользовательского интерфейса, и front-end разработчик, который пишет чистый, элегантный и эффективный код. Я делаю сайты, которые превращают посетителей в клиентов.</h4>
                     </div>
-                    <img class="photohome" src="/img/cat_and_laptop.png">
+                    <img class="photohome" src="./img/cat_and_laptop.png">
                 </div>
             
                 <a class="hireme" href="#contactme">
@@ -72,7 +72,7 @@
             </div>
             <div class="about" id="about">
                     <div class="aboutmain">
-                        <img src="/img/мышь.png" class="mouse"/>
+                        <img src="./img/мышь.png" class="mouse"/>
                         <div class="abouttext">
                             <h1 class="yellow1">НЕМНОГО</h1>
                             <h2 class="bigblack1">Обо мне</h2>
@@ -86,21 +86,21 @@
                     </div>
                     <ul class="aboutme"> 
                         <li>
-                            <img src="/img/Group.svg"/>
+                            <img src="./img/Group.svg"/>
                             <div>
                                 <h4  class="yellow2">Опыт</h4>
                                 <p>2 года</p>    
                             </div> 
                         </li>
                         <li>
-                            <img src="/img/Group 1.svg"/>
+                            <img src="./img/Group 1.svg"/>
                             <div>
                                 <h4  class="yellow2">Оплата</h4>
                                 <p>пирожными</p>
                             </div>
                         </li>
                         <li>
-                            <img src="/img/person-workspace.svg"/>  
+                            <img src="./img/person-workspace.svg"/>  
                             <div>
                                 <h4 class="yellow2">Поддержка клиентов</h4>
                                 <p>24/7</p> 
@@ -110,28 +110,28 @@
             </div>
             <div class="bodyportfolio" id="portfolio">
                 <div class="pinkblock"></div>
-                <img class="yellowblockgrid" src="/img/yellowblockgrid.svg"/>
+                <img class="yellowblockgrid" src="./img/yellowblockgrid.svg"/>
                 <div class="portfolio">
                     <div class="portfoliohead">
                         <h1 class="yellow1">ПОРТФОЛИО</h1>
                         <h2 class="bigblack1">Мои недавние проекты</h2>
                     </div>
                     <div class="block">
-                        <img src="/img/Рисунок1.png"/> 
-                        <img src="/img/Рисунок2.png"/> 
+                        <img src="./img/Рисунок1.png"/> 
+                        <img src="./img/Рисунок2.png"/> 
                     </div>
                     <div class="block">
-                        <img src="/img/Рисунок3.png"/>    
-                        <img src="/img/Рисунок4.png"/>                   
+                        <img src="./img/Рисунок3.png"/>    
+                        <img src="./img/Рисунок4.png"/>                   
                     </div>
                     <div class="whiteblock">
-                        <img class="about1" src="/img/verh.svg"/>
-                        <p class="gray1">Детекция, переводчик, telegram-bot</p>
+                        <img class="about1" src="./img/verh.svg"/>
+                        <p class="gray1">Computer vision, translator, telegram-bot</p>
                         <div class="whiteblockh">
                             <h1 class="miniblack">Some projects</h1>
                             <h1 class="gray1">BY ME</h1>
                         </div>
-                        <img class="about2" src="/img/niz.svg"/>
+                        <img class="about2" src="./img/niz.svg"/>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                                     <p>Eating pizza</p>    
                                 </div> 
                             </li>
-                            <img class="lapa" src="/img/lapa.png"/>
+                            <img class="lapa" src="./img/lapa.png"/>
                             <li>
                                 <div class="ican">
                                     <h4  class="yellow3">&#x3C;coder&#x3E;</h4>
@@ -175,29 +175,35 @@
                         </h2>
                         <div class="addressme">
                             <p>
-                                <img src="/img/vectormail.svg"/>
+                                <img src="./img/vectormail.svg"/>
                                 <a href="mailto:stepanovadari@mail.ru">stepanovadari@mail.ru</a>
                             </p>
                             <p>
-                                <img src="/img/vectortelephone.svg"/>
+                                <img src="./img/vectortelephone.svg"/>
                                 <a href="tel:+79228167431">+7 922 816 74 31</a>
                             </p> 
                         </div>
                     </div>
                 </div>
+                <!-- <form id="mailme" action='' method='post'>
                 <div class="contact">
-                    <input class="contactblockname" required placeholder=" Ваше имя" name="name">
-                    <input class="contactblockname" type="email" required placeholder=" E-mail" name="e-mail">
+                    <input class="contactblockname" required placeholder=" Ваше имя" name="username">
+                    <input class="contactblockname" type="email" required placeholder=" E-mail" name="useremail">
                     <textarea class="contactblockmes" required placeholder=" Сообщение" name="mes"></textarea>
-                    <button type="submit" class="hireme">Отправить</button>    
+                    <button type="submit" class="hireme">Отправить</button>  
+                </div>
+                </form> -->
             </div>
         </main>
     
     <footer id="footer">
-        <img position="relative" width="405px" height="420px" src="/img/cap.png"/>                        
+        <div class="footerfooter"></div>
+        <div class="captain">
+            <img src="./img/cap.png"/>
+        </div>                        
         <div class="footer">
             <div class="byme">
-                <img src="/img/_DS_2.svg" alt="">
+                <img src="./img/_DS_2.svg" alt="">
                 <p>I will write the coolest website for you. This site was also made by me ^-^</p>
             </div>
             <div class="address">
@@ -248,11 +254,7 @@
                     </div>
                 </div> 
             </div>
-        </div>
-
-        <div class="footerfooter"></div>
-        
+        </div>        
     </footer>
-    
 </body>
 </html>
