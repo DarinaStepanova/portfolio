@@ -495,12 +495,9 @@ footer {
     color: rgba(0, 0, 0, 0.31);
 }
 .byme {
-    width: 280px;
     position: relative;
-    display: flex;
-    flex-direction: column;
+    width: 280px;
 }
-
 .byme p{
     font-weight: 400;
     font-size: 11.6833px;
